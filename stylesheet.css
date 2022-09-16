@@ -1,0 +1,39 @@
+.header{display:flex;}
+.main-title{text-align: left; font-style: helvetica; color:#c3102d; font-size:75px;}
+.space{flex-grow: 3;}
+.nav-bar{align-self: end; text-align: center; color:#c3102d; font-size:20px;position: relative; top: -10px}
+h2{text-align: center; font-style: helvetica; color: #3434ecfe;}
+h3{font-style:sans-serif; color:#3a21e0; text-align: center;}
+body{background-color:#fad694;}
+a {width: 10px; height: 15px;}
+.embryo {  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    max-height: 800px;
+    }
+.implant-day{
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  display: grid;
+  grid-template-columns: 3, 1fr;
+  grid-auto-flow: column;
+}
+.implant-day img{
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: fill;}
+
+.implant-cont{display: flex; flex-direction: column; width: 100%; justify-content: flex-end; flex-wrap: wrap; align-items: center;}
+
+
+.implant-text{color: #3434ecfe; text-align:center; width:75%}
+
+
+.date{text-align:center; color:#3434ecfe; font-size: }
+.period{text-align:center; color:#3434ecfe; font-size: 20px;}
+.test-pic{max-height: 500px; display:block; margin-left: auto; margin-right: auto;}
