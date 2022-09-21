@@ -1,7 +1,7 @@
-.header{display:flex;}
+.header{display:flex; position: sticky; top: 0; background-color: rgba(128, 71, 52, 0.719)}
 .main-title{text-align: left; font-style: helvetica; color:#c3102d; font-size:75px;}
 .space{flex-grow: 3;}
-.nav-bar{align-self: end; text-align: center; color:#c3102d; font-size:20px;position: relative; top: -10px}
+.nav-bar{align-self: end; text-align: center; color:#c3102d; font-size:15px; position: relative;  top: -10px; overflow: hidden;}
 h2{text-align: center; font-style: helvetica; color: #3434ecfe;}
 h3{font-style:sans-serif; color:#3a21e0; text-align: center;}
 body{background-color:#fad694;}
@@ -10,23 +10,27 @@ a {width: 10px; height: 15px;}
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-    max-height: 800px;
+    max-height: 650px;
     }
+.implant-media{ width:100%; display:flex; justify-content: center; align-items: flex-start; }
+
+
 .implant-day{
   gap: 16px;
   max-width: 1400px;
-  margin: 0 auto;
-  padding: 20px 10px;
-  display: grid;
-  grid-template-columns: 3, 1fr;
-  grid-auto-flow: column;
+  flex-direction: column;
+  align-self: flex-start;
+  padding-right: 10px;
 }
 .implant-day img{
   width: 100%;
-  max-width: 350px;
-  height: 300px;
+  height: 382px;
   border-radius: 10px;
   object-fit: fill;}
+
+.implantvid{border-radius: 10px;}
+
+
 
 .implant-cont{display: flex; flex-direction: column; width: 100%; justify-content: flex-end; flex-wrap: wrap; align-items: center;}
 
